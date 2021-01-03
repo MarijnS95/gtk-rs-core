@@ -1,0 +1,7 @@
+[options]
+girs_directories = ["../../gir-files"]
+library = "Vulkan"
+version = "1.0"
+work_mode = "sys"
+
+external_libraries = ["GLib"]

@@ -13,8 +13,8 @@ name = "vulkan_sys"
 [dependencies]
 libc = "0.2"
 
-[dependencies.glib-sys]
-git = "https://github.com/gtk-rs/sys"
+# [dependencies.glib-sys]
+# path = "../../glib/sys"
 
 [build-dependencies]
 system-deps = "3"

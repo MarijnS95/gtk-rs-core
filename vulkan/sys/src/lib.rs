@@ -11,7 +11,7 @@
 )]
 #![cfg_attr(feature = "dox", feature(doc_cfg))]
 
-use glib_sys as glib;
+// use glib_sys as glib;
 
 #[allow(unused_imports)]
 use libc::{
@@ -19,8 +19,8 @@ use libc::{
     intptr_t, size_t, ssize_t, time_t, uintptr_t, FILE,
 };
 
-#[allow(unused_imports)]
-use glib::{gboolean, gconstpointer, gpointer, GType};
+// #[allow(unused_imports)]
+// use glib::{gboolean, gconstpointer, gpointer, GType};
 
 // Records
 #[repr(C)]
